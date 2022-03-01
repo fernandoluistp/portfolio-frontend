@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Contato - Portfólio Digital - Fernando Penachin</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Reset -->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+		<!-- Estilos específicos -->
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		
+
+	</head>
+
+	<body>
+		<div class="container">
+			<header name="banner-internas">
+				<nav class="menu-superior">
+					<h1 class="logo-site-container"><a href="index.html"><img src="./imagens/logo.svg" alt="Curso Front-end - HTML" class="logo-site"></a></h1>
+					<ul>
+						<li class="link-menu-superior"><a href="01-sobre-mim.html">Sobre mim</a></li>
+						<li class="link-menu-superior"><a href="02-design.html">Design</a></li>
+						<li class="link-menu-superior"><a href="03-sites.html">Sites</a></li>
+						<li class="link-menu-superior"><a href="04-videos.html">Vídeos</a></li>
+						<li class="link-menu-superior"><a href="05-contato.html">Quero conversar!</a></li>
+					</ul>
+
+				</nav>
+				<!--<section class="banner-principal">
+					<div class="banner-legenda">
+						<div class="banner-titulo"><h2>olá_</h2></div>
+						<div class="banner-subtitulo"><h3>seja <strong>bem-vindo</strong><br>ao meu <strong>portfólio digital</strong></h3></div>
+						<a href="05-contato.html" class="banner-botao"><span>quero conversar</span> <img src="./imagens/	logo-whatsapp.svg" class="icone-whatsapp" alt="Ícone WhatsApp"></a>
+    				</div>
+
+				</section>-->
+			</header>
+			
+			<main class="internas-main">
+				<nav class="lateral">
+					<ul class="aulas">
+						<li><a href="01-sobre-mim.html"><div class="icone-container"><img src="./imagens/icones/sobremim.svg" alt="Sobre Mim" class="icone-menu-lateral"></div> Sobre mim</a></li>
+						<li><a href="02-design.html"><div class="icone-container"><img src="./imagens/icones/portfolio.svg" alt="Portfólio de Design" class="icone-menu-lateral"></div> Design</a></li>
+						<li><a href="03-sites.html"><div class="icone-container"><img src="./imagens/icones/sites.svg" alt="Portfólio de Sites" class="icone-menu-lateral"></div> Sites</a></li>
+						<li><a href="04-videos.html"><div class="icone-container"><img src="./imagens/icones/videos.svg" alt="Portfólio de Vídeos" class="icone-menu-lateral"></div> Vídeos</a></li>
+						<li><a href="05-contato.html"><div class="icone-container"><img src="./imagens/icones/contato.svg" alt="Entre em contato" class="icone-menu-lateral"></div> Quero conversar!</a></li>
+					</ul>
+	
+					<ul class="contato">
+						<li><a href="https://twitter.com/fernandoluistp" target="_blank" style="color:#ffffff; font-weight: bold;"><div class="icone-container"><img src="./imagens/logo-twitter.svg" alt="	Ícone Twitter" class="icone-menu-lateral"></div> Twitter</a></li>
+						<li><a href="https://api.whatsapp.com/send?phone=5519991435042" target="_blank" style="color:#ffffff; font-weight: bold;"><div class="icone-container"><img src="./imagens/	logo-whatsapp.svg" alt="Ícone WhatsApp" class="icone-menu-lateral"></div> WhatsApp</a></li>
+					</ul>
+
+				</nav>
+
+				
+
+				<article>
+					<h1>Vamos conversar?</h1>
+					<div class="internas-design-introducao">
+						<p>Por favor, preencha os campos abaixo para que eu possa entender melhor seu projeto. Agora, <em>se você não gosta de preencher formulários</em>, pode me enviar uma mensagem via <a href="https://api.whatsapp.com/send?phone=5519991435042" class="link-whatsapp">WhatsApp <img src="./imagens/logo-whatsapp.svg" alt="Ícone WhatsApp"></a>.</p>					</div>
+
+					<div class="formulario-container">
+
+						<form method="post">
+
+							<h3>Vamos começar uma ótima parceria. </h3>
+	
+							<div class="formulario-parte-1">
+								<h3>Sobre você</h3>
+
+								<div class="formulario-campo-50">
+									<label for="nome">Nome:</label>
+									<input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+								</div>
+								<div class="formulario-campo-50">
+									<label for="nome">E-mail:</label>
+									<input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+								</div>
+								<div class="formulario-campo-50">
+									<label for="nome">Fone:</label>
+									<input type="tel" name="fone" id="fone" placeholder="+55 (00) 00000-0000"  required>
+								</div>
+							</div>
+							<div class="formulario-parte-1">
+								<h3>Sobre sua empresa</h3>
+
+								<div class="formulario-campo-50">
+									<label for="nome">Sua empresa:</label>
+									<input type="text" name="empresa" id="empresa" placeholder="Sua empresa"  required>
+								</div>
+								<div class="formulario-campo-50">
+									<label for="nome">Seu site:</label>
+									<input type="url" name="url" id="url" placeholder="https://seusite.com"  required>
+								</div>
+							</div>
+
+							<div class="formulario-parte-2">
+								<h3>Sobre seu projeto</h3>
+
+								<div class="formulario-campo-50">
+									<p>
+										<label>Quais serviços você deseja?</label>
+										<input type="checkbox" name="linguagem-sabe" value="ux-ui-frontend" required> UX / UI / Front-End
+										<input type="checkbox" name="linguagem-sabe" value="design"> Design
+										<input type="checkbox" name="linguagem-sabe" value="outros"> Outros
+									</p>
+								</div>
+
+								<div class="formulario-campo-100">
+									<label for="nome">Por favor, explique resumidamente seu projeto ou necessidade:</label>
+									<textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite seu briefing"></textarea>
+								</div>
+							</div>
+		
+							
+					
+							<div>
+								<input type="submit" value="Enviar">
+							</div>
+						</form>
+			
+					</div>
+			</article>
+
+		</main>
+		<footer>
+			<p>Desenvolvido por <a href="./05-contato.html">Fernando Penachin</a></p>
+		</footer>
+	</div>
+	</body>
+
+</html>
+
