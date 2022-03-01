@@ -1,5 +1,6 @@
 # portfolio-frontend
+### Atualização manual do arquivo na plataforma do GitHub
 
-## upload de arquivos para repositório do Git - Módulo 10
+## Upload de arquivos para repositório do Git - Módulo 10
 
 - Markdown
