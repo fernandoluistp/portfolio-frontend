@@ -15,7 +15,7 @@
 | 8      | Site fluido               |
 | 9      | Site responsivo e filters |
 
-
+* A partir de agora todos os envios serão realizados via GitHub
 
 # Referência Curso Front-end
 #### EBAC
