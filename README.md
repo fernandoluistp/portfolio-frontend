@@ -7,7 +7,13 @@
 - Utilizar Markdowns
 - Utilizar o terminal para comandos (ver referência abaixo)
 - Os arquivos do módulo 10 são os **mesmos** do módulo 9 (site responsivo)
+- Os arquivos dos módulos anteriores não foram __commitados__ aqui. Para referência:
 
+| Módulo | Assunto                   |
+---------|---------------------------|
+| 7      | Tabelas e CSS             |
+| 8      | Site fluido               |
+| 9      | Site responsivo e filters |
 
 
 
